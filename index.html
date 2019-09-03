@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Naty</title>
+</head>
+
+<body>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <button type="button" class="btn btn-info">Descargar CV</button>
+        </li>
+    </ul>
+
+    <div class="card mb-3" style="max-width: 2000px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="https://cdn0.iconfinder.com/data/icons/some-avatars/200/girlreddresspony-512.png"
+                    class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 id="Nombre">Natalia Barrantes</h2>
+                    <h3 class="card-title">Información General</h3>
+                    <p class="card-text"> Soy una administradora de empresas, con experiencia en finanzas y conocimiento
+                        básico de programación web.</p>
+                    <div class="Casa">
+                        <img src="https://img.icons8.com/ios-glyphs/30/000000/cottage.png">
+                        <span>San Vicente, Moravia.</span>
+                        <br>
+                        <img src="https://img.icons8.com/material-rounded/24/000000/email.png">
+                        <span id="correo">natybch@hotmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card mb-3" style="max-width: 2000px;">
+        <div class="row no-gutters">
+
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h3 class="card-title">Experiencia</h3>
+                    <ul>
+                        <li>Administrador de Contratos Senior (HP Inc.)</li>
+
+                        <li>Agente Despachador para Bank of America (HP Inc.)</li>
+
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="https://cdn0.iconfinder.com/data/icons/some-avatars/200/girlreddresspony-512.png"
+                    class="card-img" alt="...">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="card mb-3" style="max-width: 2000px;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img src="https://cdn0.iconfinder.com/data/icons/some-avatars/200/girlreddresspony-512.png"
+                    class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h3 class="card-title">Educación</h3>
+
+                    <ul>
+                        <li>Bachiller en Administración de Empresas (UNA).</li>
+
+                        <li>Licenciada en Ordenamiento Territorial (UNA).</li>
+                        <li>Fundamentos de Project Management (HP Inc.).</li>
+                        <li>Idiomas: Inglés y Portugués.</li>
+                        <li>Conocimiento básico de HTML., CSS., JavaScript. (Dev.F).</li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <form action="https://formspree.io/natybch@hotmail.com" method="POST">
+        <h2 class="card-title">Contáctame</h2>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Correo electrónico</label>
+            <input name="email" type="email" class="form-control" id="Input1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Nombre</label>
+            <textarea class="form-control" input name="Nombre" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Tema</label>
+            <textarea class="form-control" input name="tema" id="exampleFormControlTextarea1" rows="1"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" input name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input type="submit" value="Enviar" class="btn btn-info">
+    </form>
+
+</body>
+
+</html>
