@@ -1,5 +1,5 @@
 body{
-    background: black;
+    background: #581845;
 }
 
 #correo{
@@ -9,5 +9,5 @@ body{
 #Nombre{
     font-size: 40px;
     font-weight: 5px;
+    color: #ff5733;
 }
-
