@@ -1,0 +1,18 @@
+       
+    
+    .navbar{
+        height: 992px;
+        display:flex;
+        justify-content: flex-end;
+                background: rgb(80,155,245);
+       
+    }
+.menu{
+   display: flex;
+   flex-direction: row;
+   width: 500px;
+   height: 25px;
+     justify-content: space-around;
+        background: yellow;
+    }
+   

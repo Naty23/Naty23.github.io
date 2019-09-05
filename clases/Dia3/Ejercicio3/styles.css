@@ -1,0 +1,36 @@
+.navbar{
+    background: gray;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    color: rgb(67, 46, 158);
+    background: black;
+}
+.main-container{
+    height: 80vh;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searcher{
+    background: purple;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    margin-top: 20px;
+    background: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+}

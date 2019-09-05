@@ -1,0 +1,25 @@
+/*Este afecta todas las etiquetas HTML*/
+*{
+    font-family: 'Courier New', Courier, monospace
+}
+/*Este afecta todas las etiquetas H1*/
+h1{ 
+    color: purple;
+}
+ol {
+
+    color:red
+}
+li{
+    color:whitesmoke
+}
+body{background: url("https://spacenews.com/wp-content/uploads/2018/04/SST-Trifid-Nebula-879x485.png")
+}
+
+.Asteroides{
+    color:yellow
+}
+
+.after{
+    color: lightsalmon
+}

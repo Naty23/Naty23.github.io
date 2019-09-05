@@ -1,0 +1,20 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+
+h1{color:purple;}
+
+h2{color: turquoise}
+
+p{color: whitesmoke}
+
+ul{color: lightblue}
+
+body{background: url("http://eskipaper.com/images/cosmos-background-1.jpg")
+}
+
+.redondo{
+   border-radius: 100px 
+}
+
+.nube{
+    border-radius: 100px
+}

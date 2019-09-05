@@ -1,0 +1,10 @@
+
+body{
+    background: url(https://img.vixdata.io/pd/jpg-large/es/sites/default/files/c/cosmos_universo.jpg);
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+.container{
+    background: white;
